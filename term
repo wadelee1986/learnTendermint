@@ -1,0 +1,17 @@
+
+1、network 部分连接的节点组成； （被连接的节点称为peers）
+
+2、consensus process 决定下一个块的产生；由一轮或多轮组成
+
+3、NewHeight propose  prevote precommit and commit  是一轮的5个状态
+
+4、一个节点是 指定的高度\轮\步骤
+
+5、 prevote  or precommit  something 广播一个 prevote  vote  or  precommit vote for something
+
+6、vote 是针对HR签名的byte;
+
+7、 针对一个块或nil有+2/3的prevotes vote 在HR上； 称为 proof-of-lock-change  or PoLC for  short
+
++2/3 is short for "more than 2/3"
+1/3+ is short for "1/3 or more"
